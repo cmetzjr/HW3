@@ -1,3 +1,13 @@
+# Project summary
+This is a simple random password generator. On page load, it asks the user a series of questions about the desired password - length, special characters, number, uppercase, and lowercase. Once all of the questions have been answered, the user can press the "Generate Password" button and a password meeting the selected criteria will be returned. The input is validated in two ways: 
+1. if the requested password is longer than 128 or shorter than 8 characters, the user is reminded about the password length;
+2. if the user selects no type of characters, the user is reminded to select a character. 
+
+Future versions of this generator should use better means to enforce the data validation (beyond the simple reminders) as the user can still select passwords that are too long or too short.
+
+Project instructions are below:
+
+
 # 03 JavaScript: Password Generator
 
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
